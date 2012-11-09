@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+
+<install version="1.5" type="plugin" group="vmpayment">
+
+	<name>BitPay VirtueMart Integration</name>
+
+	<creationDate>November 6th 2012</creationDate>
+	<author>BitPay</author>
+	<authorUrl>http://bitpay.com</authorUrl>
+	<copyright>Copyright (C) 2012</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version status="MINOR">1.0.0</version>
+
+	<files>
+		<filename plugin="bitpay">bitpay.xml</filename>
+		<filename plugin="bitpay">bitpay.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_vmpayment_bitpay.ini</language>
+		<language tag="en-GB">en-GB.plg_vmpayment_bitpay.sys.ini</language>
+	</languages>
+</install>

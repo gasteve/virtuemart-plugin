@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" group="vmpayment" >
+    <name>VMPAYMENT_BITPAY</name>
+    <creationDate>July 27 2012</creationDate>
+    <author>BitPay</author>
+    <authorUrl>http://www.bitpay.com</authorUrl>
+    <copyright>Copyright</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.0.0</version>
+    <description>BitPay payment plugin</description>
+    <languages>
+	<language tag="en-GB">en-GB.plg_vmpayment_bitpay.ini</language>
+    </languages>
+    <files>
+	<filename plugin="bitpay">bitpay.php</filename>
+    </files>
+	<params addpath="/plugins/vmpayment/bitpay" />
+    <params addpath="/administrator/components/com_virtuemart/elements">
+
+	<param name="merchant_apikey" type="text"  label="Merchant API Key" description="Merchant API Key" />
+    </params>
+</install>
