@@ -16,6 +16,11 @@
     </files>
 	<params addpath="/plugins/vmpayment/bitpay" />
     <params addpath="/administrator/components/com_virtuemart/elements">
+    <param  name="payment_logos" type="vmfiles" label="VMPAYMENT_SYSTEMPAY_LOGOS"
+            description="VMPAYMENT_SYSTEMPAY_LOGOS_DESC"
+            directory="/images/stories/virtuemart/payment"
+            default="systempay.jpg" hide_default="1" hide_none="1"
+            stripext="0" exclude="^_" />
 
 	<param name="merchant_apikey" type="text"  label="Merchant API Key" description="Merchant API Key" />
     </params>
